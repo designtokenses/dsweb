@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Design Tokens </title>
+    <link rel="stylesheet" href="./build/dark/variables.css">
+    <link rel="stylesheet" href="./build/light/variables.css">
+    <link rel="stylesheet" href="./build/desktop/variables.css" media="only screen and (min-width:769px)">
+    <link rel="stylesheet" href="./build/mobile/variables.css" media="only screen and (max-width:768px)">
+    <link rel="stylesheet" href="./src/bulma.scss">
+    <link rel="stylesheet" href="./src/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+  <body class="light">
+      <nav class="navbar dst-navbar">
+          <div class="container">
+              <div class="navbar__logo">
+                  <!-- <img id="logo" src="/logo.svg" /> -->
+              </div>
+          </div>
+      </nav>
+      <section class="section learning has-text-centered">
+          <div class="section dst-dotted-container learning-container primary">
+              <h1>
+                  <div>Aprende cómo escalar</div>
+                  <div>productos con design tokens</div>
+              </h1>
+              <p>
+                  <span>Una formación en español para que domines el diseño, distribución y</span>
+                  <span>aplicación de la metodología de design tokens</span>
+              </p>
+
+              <div class="go-to-learning is-flex is-justify-content-center">
+                <a class="dst-button primary" href="#sessions">Ir a la formación →</a>
+              </div>
+          <div>
+      </section>
+
+      <section class="section why">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column text is-flex is-half">
+                    <h2>Por qué Design Tokens</h2>
+                    <p>
+                        Los design tokens se han establecido como la metodología por excelencia para comunicar las decisiones de diseño entre marcas, equipos y tecnologías. Su potencial se basa en la idea de crear una fuente de la verdad, una guía común desde la que se distribuyan todas las decisiones.
+                    </p>
+                    <p>
+                        Si te interesa optimizar los tiempos de desarrollo, la comunicación entre equipos o los sistemas de diseño en empresas en escala, este curso es para tí.
+                    </p>
+                    <div class="dst-buttons">
+                        <a class="dst-button primary" href="#sessions">Ir a la formación →</a>
+                        <a href="https://designtokenses.substack.com" target="_blank" class="dst-button secondary">Leer más en substack</a>
+                    </div>
+                </div>
+
+                <div class="column is-half is-hidden-mobile">
+                    <div class="logos-galaxy desktop"></div>
+                    <!-- <img class="logos-galaxy-desktop" src="/logos-galaxy.svg"/> -->
+                </div>
+
+                <div class="column is-half is-hidden-desktop">
+                    <div class="logos-galaxy"></div>
+                    <!-- <img class="logos-galaxy-mobile" src="/logos-galaxy.svg"/> -->
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="section others-companies">
+          <div class="container other-companies-container layout-bg">
+              <div class="columns is-flex is-align-items-center is-justify-content-center">
+                  <div class="column is-full h2 has-text-centered">
+                      <h2>
+                            <span>Las grandes empresas ya trabajan<span>
+                            <span>con Design Tokens</span>
+                      </h2>
+                  </div>
+              </div>
+              <div class="company-logos is-flex is-align-items-center">
+                  <div class="logo atlassian">
+                  </div>
+                  <div class="logo google">
+                  </div>
+                  <div class="logo zendesk">
+                  </div>
+                  <div class="logo adobe">
+                  </div>
+                  <div class="logo salesforce">
+                  </div>
+                  <div class="logo uber">
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="sessions" class="section sessions">
+          <div class="container sessions-container">
+              <div class="columns">
+                  <div class="column is-two-fifths">
+                      <h2>Sesiones</h2>
+
+                      <div class="dst-badges">
+                          <div class="dst-badge primary">
+                              8 sesiones en directo
+                          </div>
+                          <div class="dst-badge primary">
+                              18 horas
+                          </div>
+                          <div class="dst-badge primary">
+                              100% remoto
+                          </div>
+                          <div class="dst-badge primary">
+                              foco en la práctica
+                          </div>
+                      </div>
+                  </div>
+                  <div class="column sessions">
+                      <div class="dst-session">
+                          <div class="info">sesión 1</div>
+                          <h3>La fuente de la verdad</h3>
+                          <div class="content">
+                            Hablaremos del problema de comunicación entre los equipos de diseño y desarrollo y cómo los design tokens te ayudarán a mejorar el proceso, siendo la fuente de la verdad. Además de presentarnos y profundizar en lo que veremos durante el curso, mostraremos cómo es un flujo completo desde el diseño a la implementación.
+                          </div>
+                      </div>
+
+                      <div class="dst-session">
+                          <div class="info">sesión 2</div>
+                          <h3>Arquitectura de tokens</h3>
+                          <div class="content">
+                            Profundizarás en la teoría y buenas prácticas detrás de la implementación de design tokens. El objetivo será tener claros los principios y entender la toma de decisiones de su creación.
+                          </div>
+                      </div>
+
+                      <div class="dst-session">
+                          <div class="info">sesión 3</div>
+                          <h3>Definición de estilos</h3>
+                          <div class="content">
+                            Entraremos a la práctica de tokenizar nuestra interfaz, con herramientas como Figma y Token Studio.
+                          </div>
+                      </div>
+
+                      <div class="dst-session">
+                          <div class="info">sesión 4</div>
+                          <h3>Sincronización con Github</h3>
+                          <div class="content">
+                            Aprenderás a sincronizar tus design tokens entre Figma y GitHub, asegurando que los estilos y componentes de tu aplicación estén siempre actualizados y alineados.
+                          </div>
+                      </div>
+
+                      <div class="dst-session">
+                          <div class="info">sesión 5</div>
+                          <h3>Alimentando Style Dictionary</h3>
+                          <div class="content">
+                              Descubrirás cómo utilizar Style Dictionary para gestionar tus Design Tokens a partir de una única fuente de la verdad. Veremos cómo configurarlo y alimentarlo desde los Tokens de Figma almacenados en Github.
+                          </div>
+                      </div>
+
+                      <div class="dst-session">
+                          <div class="info">sesión 6</div>
+                          <h3>Transformadores</h3>
+                          <div class="content">
+                               En esta sesión, aprenderás a usar transformadores en Style Dictionary para convertir y adaptar los Design Tokens a las diferentes necesidades de la plataforma.
+                          </div>
+                      </div>
+
+                      <div class="dst-session">
+                          <div class="info">sesión 7</div>
+                          <h3>Formatos</h3>
+                          <div class="content">
+                               Verás cómo usar los formatos en Style Dictionary para definir la salida de los Design Tokens en diferentes lenguajes y plataformas (CSS, JavaScript, Swift, XML, etc.). Aprenderás a crear formatos personalizados que se adapten a las necesidades específicas de tu proyecto, permitiendo un flujo de trabajo más eficiente entre el diseño y el desarrollo.
+                          </div>
+                      </div>
+
+                      <div class="dst-session">
+                          <div class="info">sesión 8</div>
+                          <h3>Dark Mode y proyectos</h3>
+                          <div class="content">
+                               Finalmente, descubrirás el flujo completo para implementar el dark mode en proyectos utilizando Style Dictionary. También será una oportunidad para que los participantes compartan los design tokens que han desarrollado durante el curso, intercambiando ideas y mejoras.
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="section meet-the-teachers">
+          <div class="container info-container is-align-items-center is-justify-content-center pa-40">
+              <div class="columns">
+                  <div class="column has-text-centered">
+                      <h2>Conoce a los profesores</h2>
+                  </div>
+              </div>
+              <div class="columns teachers is-justify-content-center">
+                  <div class="column is-two-fifths">
+                      <div class="teacher-box is-hidden-mobile">
+                          <div class="avatar pfer"></div>
+                          <div>
+                              <div class="name">Pablo Fernández Franco</div>
+                              <div class="job-title">Software Platform Engineer</div>
+                          </div>
+                          <a href="https://www.linkedin.com/in/pffranco/" target="_blank" class="cta"></a>
+                      </div>
+                      <div class="teacher-box is-hidden-desktop">
+                          <div class="avatar pfer"></div>
+                          <div>
+                              <div class="name">Pablo F.</div>
+                              <div class="job-title">SP Engineer</div>
+                          </div>
+                          <a href="https://www.linkedin.com/in/pffranco/" target="_blank" class="cta"></a>
+                      </div>
+                  </div>
+                  <div class="column is-two-fifths">
+                      <div class="teacher-box is-hidden-mobile">
+                          <div class="avatar pperi"></div>
+                          <div>
+                              <div class="name">Pablo Peribáñez Tafalla</div>
+                              <div class="job-title">Design Systems</div>
+                          </div>
+                          <a href="https://www.linkedin.com/in/pabloperibañez/" target="_blank" class="cta"></a>
+                      </div>
+
+                      <div class="teacher-box is-hidden-desktop">
+                          <div class="avatar pperi"></div>
+                          <div>
+                              <div class="name">Pablo P.</div>
+                              <div class="job-title">Design Systems</div>
+                          </div>
+                          <a href="https://www.linkedin.com/in/pabloperibañez/" target="_blank" class="cta"></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="section pricing-section">
+          <div class="container">
+              <div class="columns">
+                  <div class="column has-text-centered pricing-title">
+                      <h2>Precios</h2>
+                  </div>
+              </div>
+              <div class="columns prices">
+                  <div class="column newsletter">
+                      <div class="dst-dotted-container pricing-container pricing-dotted-container secondary">
+                          <div class="info">newsletter</div>
+                          <div class="title"><h3>Design Tokens en español</h3></div>
+                          <h2 class="price-primary">gratis</h2>
+                          <div class="reasons">
+                               Suscríbete a nuestra newsletter para recibir píldoras y novedades sobre design tokens.
+                          </div>
+                          <div class="button">
+                              <a href="https://designtokenses.substack.com" target="_blank" class="dst-button secondary">Suscribirme</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="column course">
+                      <div class="dst-dotted-container pricing-container pricing-dotted-container-salient secondary">
+                          <div class="info">curso en directo</div>
+                          <div class="title"><h3>Escalando productos con Design Tokens</h3></div>
+                          <div class="price">
+                              <h2 class="price-primary">agotado</h2>
+                          </div>
+                          <div class="reasons">
+                            Aprende el proceso de creación de design tokens desde la definición hasta la implementación en desarrollo. 
+                          </div>
+                          <div class="button">
+                              <a href="https://forms.gle/1NJ9GmwpN45Uz1EdA" class="dst-button primary" target="_blank">AGOTADO</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="column consultory">
+                      <div class="dst-dotted-container secondary pricing-container pricing-dotted-container">
+                          <div class="info">formación privada</div>
+                          <div class="title"><h3>¿Quieres que te ayudemos en tu proyecto?</h3></div>
+                          <div class="reasons">
+                            Contáctanos para ayudarte de forma más personalizada
+                          </div>
+                          <div class="button">
+                              <a href="mailto:hola@designtokens.es" class="dst-button secondary">Contáctanos</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="section video">
+          <div class="container video-container">
+              <div class="columns">
+                  <div class="column has-text-centered pricing-title">
+                      <h2>Te contamos más en vídeo</h2>
+                  </div>
+              </div>
+              <div>
+                  <iframe class="yt-video" src="https://www.youtube.com/embed/pjc-6Ff_Ezc?si=GbOFZyGTryPqiP5Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+          </div>
+      </section>
+
+      <section class="section qa">
+          <div class="container qa-container">
+              <div class="columns">
+                  <div class="column is-two-fifths">
+                      <h2><span>Preguntas</span><span>frecuentes</span></h2>
+                  </div>
+                  <div class="column sessions">
+                      <div class="dst-session">
+                          <h3>¿Cuándo serán las clases?</h3>
+                          <div class="content">
+                            La primera edición empezará el lunes 4 de Noviembre.
+                            Las clases serán los martes y jueves, más una sesión de introducción el lunes 4 y una final el viernes 22 de Noviembre. Serán online en directo, empezando a las 18:30 UTC+1 ()
+                          </div>
+                      </div>
+
+                      <div class="dst-session">
+                          <h3>¿Qué nivel de conocimientos necesito para el curso?</h3>
+                          <div class="content">
+                            El curso va dirigido a cualquier perfil involucrado en el desarrollo de productos digitales, desde diseñadores a desarrolladores y product managers que quieran conocer la metodología para mejorar la escalabilidad y comunicación entre equipos a través de los Design Tokens. Daremos por sentada mucha información básica, por lo que si tienes dudas tanto sobre si este curso es para tí, como si va a cubrir tus expectativas, por favor contáctanos por correo y te daremos más info.
+                          </div>
+                      </div>
+                      <div class="dst-session">
+                          <h3>¿Necesito saber programar para el curso?</h3>
+                          <div class="content">
+                            No es necesario. Partiremos desde cero a la hora de enseñar cómo transformar y llevar a producción nuestros Design Tokens, por lo que no tendrás problemas de seguir las clases aunque nunca hayas programado.
+                          </div>
+                      </div>
+                      <div class="dst-session">
+                          <h3>¿Habrá más ediciones?</h3>
+                          <div class="content">
+                            Sí. Próximamente anunciaremos las fechas de las siguientes ediciones. Puedes mantenerte al tanto siguiendo nuestra página de Linkedin.
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <footer>
+          <div class="footer">
+              <div class="columns">
+                  <div class="column is-two-thirds">
+                      <div class="logo"></div>
+                  </div>
+                  <div class="links column is-flex">
+                      <a href="mailto:hola@designtokens.es">hola@designtokens.es</a>
+                      <a href="https://www.linkedin.com/company/designtokens-es/">Linkedin</a>
+                      <a href="https://designtokenses.substack.com">Substack</a>
+                  </div>
+              </div>
+
+              <div class="columns copyright">
+                  <div class="column">
+                      Design Tokens en Español © 2024 Todos los derechos reservados. <span><a href="https://docs.google.com/document/d/e/2PACX-1vSdRj2pGU_K0G4d3W8ADa03dFtHrD106py8EjR9-HJGM3GTevYioOPoSxuLTbVR6DHkvpbFnM0neWq9/pub">Politica de Privacidad</a></span>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
+      <script>
+          const img = document.querySelector('.navbar__logo');
+          const body = document.querySelector('body');
+
+          img.addEventListener('click', () => {
+              if (body.classList.contains('light')) {
+                  body.classList.remove('light');
+                  body.classList.add('dark');
+              } else {
+                  body.classList.remove('dark');
+                  body.classList.add('light');
+              }
+          });
+
+          document.addEventListener('dragover', (ev) => {
+              ev.preventDefault();
+          });
+
+          document.addEventListener('drop', (ev) => {
+              ev.preventDefault();
+              if (event.dataTransfer.files.length > 0) {
+                  const file = event.dataTransfer.files[0];
+                  if (file.type === 'application/zip' || file.name.endsWith('.zip')) {
+                      uploadZip(file);
+                  }
+              }
+          });
+
+          function uploadZip (zip) {
+            const formData = new FormData();
+
+            formData.append('zipFile', zip);
+
+            fetch('http://localhost:3000/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.text())
+            .then(result => {
+                setTimeout(function () {
+                    window.location.reload();
+                }, 3000);
+            })
+            .catch(error => {
+                console.error('Error al subir el archivo:', error);
+            });
+          }
+      </script>
+  </body>
+</html>
