@@ -14,7 +14,7 @@
   "dependencies": {
     "@tokens-studio/sd-transforms": "^1.2.6",
     "bulma": "^1.0.2",
-    "sd-themes-loader": "^1.0.0"
+    "sd-themes-loader": "^1.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
