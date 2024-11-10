@@ -14,13 +14,10 @@
             "program": "${workspaceFolder}/build.js"
         },
         {
-            "type": "node",
-            "request": "launch",
+            "command": "npm run web",
             "name": "Web",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "npm run dev"
+            "request": "launch",
+            "type": "node-terminal"
         }
     ]
 }
