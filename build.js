@@ -8,4 +8,10 @@ register(StyleDictionary, {
 
 const loader = ThemesLoader(StyleDictionary);
 
-console.log('Hola mundo!');
+// esto es un comentario
+
+async function main () {
+    console.log('Hola mundo');
+}
+
+main();
