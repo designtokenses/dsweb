@@ -1,0 +1,63 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --font-headline-xl-font-family: Comic Sans MS;
+  --font-headline-xl-font-weight: 500;
+  --font-headline-xl-line-height: 1.2;
+  --font-headline-xl-font-size: 2.5341rem;
+  --font-headline-xl-letter-spacing: - 0.0625rem;
+  --font-headline-l-font-family: Comic Sans MS;
+  --font-headline-l-font-weight: 500;
+  --font-headline-l-line-height: 1.2;
+  --font-headline-l-font-size: 2.0022rem;
+  --font-headline-l-letter-spacing: - 0.0625rem;
+  --font-headline-m-font-family: Comic Sans MS;
+  --font-headline-m-font-weight: 500;
+  --font-headline-m-line-height: 1.2;
+  --font-headline-m-font-size: 1.4238rem;
+  --font-headline-m-letter-spacing: 0;
+  --font-body-l-default-font-family: Inter;
+  --font-body-l-default-font-weight: 300;
+  --font-body-l-default-line-height: 1.5;
+  --font-body-l-default-font-size: 1.4238rem;
+  --font-body-l-default-letter-spacing: 0;
+  --font-body-l-strong-font-family: Inter;
+  --font-body-l-strong-font-weight: 500;
+  --font-body-l-strong-line-height: 1.5;
+  --font-body-l-strong-font-size: 1.4238rem;
+  --font-body-l-strong-letter-spacing: 0;
+  --font-body-m-default-font-family: Inter;
+  --font-body-m-default-font-weight: 300;
+  --font-body-m-default-line-height: 1.5;
+  --font-body-m-default-font-size: 1rem;
+  --font-body-m-default-letter-spacing: 0;
+  --font-body-m-strong-font-family: Inter;
+  --font-body-m-strong-font-weight: 500;
+  --font-body-m-strong-line-height: 1.5;
+  --font-body-m-strong-font-size: 1rem;
+  --font-body-m-strong-letter-spacing: 0;
+  --font-caption-m-default-font-family: Inter;
+  --font-caption-m-default-font-weight: 300;
+  --font-caption-m-default-line-height: 1.5;
+  --font-caption-m-default-font-size: 0.875rem;
+  --font-caption-m-default-letter-spacing: 0;
+  --font-caption-m-strong-font-family: Inter;
+  --font-caption-m-strong-font-weight: 500;
+  --font-caption-m-strong-line-height: 1.5;
+  --font-caption-m-strong-font-size: 0.875rem;
+  --font-caption-m-strong-letter-spacing: 0;
+  --font-caption-m-uppercase-font-family: Comic Sans MS;
+  --font-caption-m-uppercase-font-weight: 500;
+  --font-caption-m-uppercase-line-height: 1.5;
+  --font-caption-m-uppercase-font-size: 0.875rem;
+  --font-caption-m-uppercase-letter-spacing: 0.125rem;
+  --font-caption-m-uppercase-text-case: uppercase;
+  --font-caption-m-underline-font-family: Inter;
+  --font-caption-m-underline-font-weight: 300;
+  --font-caption-m-underline-line-height: 1.5;
+  --font-caption-m-underline-font-size: 0.875rem;
+  --font-caption-m-underline-letter-spacing: 0;
+  --font-caption-m-underline-text-decoration: underline;
+}
